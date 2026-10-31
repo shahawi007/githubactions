@@ -15,7 +15,7 @@ jobs:
 
           
         - name: chekout repository
-          uses: actions/checkout@v42.2.2
+          uses: actions/checkout@v4.2.2
 
         - name : list respo files
           run : ls -la
