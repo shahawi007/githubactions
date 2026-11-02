@@ -1,0 +1,13 @@
+on: 
+  schedule:
+    - cron: "59 13 * * *"
+
+jobs:
+  daily-task:
+    runs-on: ubuntu latest
+    steps:
+      - name : print message
+        run: echo "running the scheduled task"
+  
+
+    
